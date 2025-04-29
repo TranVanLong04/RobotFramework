@@ -22,7 +22,7 @@ ${PASSWORDFAIL}    admin1234
     Close Browser
 
 Đăng Nhập Thất Bại
-    [Documentation]    Kiểm tra đăng nhập hợp lệ
+    [Documentation]    Kiểm tra đăng nhập thất bại
     Open Browser    ${URL}    chrome
     #Đợi 10s cho Web load xong
     Wait Until Element Is Visible    xpath=//input[@placeholder='Username']    10s
@@ -33,7 +33,7 @@ ${PASSWORDFAIL}    admin1234
     Close Browser
 
 Đăng Nhập Thất Bại Do Username Rỗng
-    [Documentation]    Kiểm tra đăng nhập hợp lệ
+    [Documentation]    Kiểm tra đăng nhập thất bại do Username bị rỗng
     Open Browser    ${URL}    chrome
     #Đợi 10s cho Web load xong
     Wait Until Element Is Visible    xpath=//input[@placeholder='Username']    10s
